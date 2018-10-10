@@ -1,0 +1,13 @@
+
+server:
+  servlet:
+    path: /game-admin
+  port: 23330
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.0/viewmode?characterEncoding=utf-8
+    username: root
+    password: pass123
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
